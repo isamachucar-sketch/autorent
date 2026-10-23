@@ -1,0 +1,6 @@
+target/
+data/
+nbproject/private/
+.idea/
+*.iml
+*.log
