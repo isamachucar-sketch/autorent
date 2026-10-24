@@ -90,7 +90,7 @@ Errores: `404` no encontrado, `409` conflicto (auto no disponible, alquiler ya f
 5. La cantidad de días debe ser mayor que cero.
 6. `valorTotal = precioPorDia × cantidadDias`, lo calcula el sistema (no se envía).
 
-#Ejemplos (los mismos datos de la colección de Postman, carpeta "Pruebas del profesor"):
+#Ejemplos (los mismos datos de la colección de Postman, carpeta "Pruebas del profesor") esta contiene las pruebas minimas que pide el documento:
 Al iniciar solo existen el auto 1 (Mazda, `ALQUILADO`) y el cliente 1 (Laura). Por eso se registran un auto y un cliente nuevos, que reciben el id 2. En Postman: Body → raw → JSON.
 
 1. Crear auto: `POST /api/autos`
