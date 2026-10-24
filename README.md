@@ -158,5 +158,3 @@ Respuesta `200 OK`: el alquiler queda `FINALIZADO` y el auto 2 vuelve a `DISPONI
 
 Se agregó sin tocar el dominio: un caso de uso (`ConsultarHistorialClienteUseCase`) con su interfaz, un método en el puerto de salida y su implementación en el adaptador. Demuestra que la arquitectura hexagonal permite crecer sin modificar las reglas de negocio.
 
-**#Pruebas:**
-Importar `docs/AutoRent.postman_collection.json` y ejecutarla en orden, con la aplicación recién iniciada.
